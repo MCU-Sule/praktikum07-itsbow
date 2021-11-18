@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Author" content="2072043 nurbagussajiwo">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>soal2</title>
+</head>
+<body>
+    <script>
+        let hargaa = prompt("Berapa harga belanja anda?")
+        let hargab = prompt("Berapa uang yang di bayar?")
+
+        document.write("harga belanja anda adalah Rp. "+hargaa)
+        document.write("<br>Uang yg dibayarkan adalah Rp. "+hargab)
+
+        let kem = hargab - hargaa
+        document.write("<br><br>Kembalian anda adalah Rp."+kem+" dengan rincian sebagai berikut")
+
+        let kem1 = 100000
+        let kem2 = 50000
+        let kem3 = 20000
+        let kem4 = 10000
+        let kem5 = 5000
+        let kem6 = 2000
+        let kem7 = 1000
+        let kem8 = 500
+        let kem11 = 0
+        let kem12 = 0
+        let kem13 = 0
+        let kem14 = 0
+        let kem15 = 0
+        let kem16 = 0
+        let kem17 = 0
+        let kem18 = 0
+        while (kem >= kem1){
+            kem11 ++
+            kem = kem - kem1
+        }
+        while (kem >= kem2){
+            kem12 ++
+            kem = kem - kem2
+        }
+        while (kem >= kem3){
+            kem13 ++
+            kem = kem - kem3
+        }
+        while (kem >= kem4){
+            kem14 ++
+            kem = kem - kem4
+        }
+        while (kem >= kem5){
+            kem15 ++
+            kem = kem - kem5
+        }
+        while (kem >= kem6){
+            kem16 ++
+            kem = kem - kem6
+        }
+        while (kem >= kem7){
+            kem17 ++
+            kem = kem - kem7
+        }
+        while (kem >= kem8){
+            kem18 ++
+            kem = kem - kem8
+        }
+       
+        if(kem11 >= 1){
+            document.write("<br>Uang Rp.100000 sebanyak "+kem11+" lembar")
+        }
+        if(kem12 >= 1){
+            document.write("<br>Uang Rp.50000 sebanyak "+kem12+" lembar")
+        }
+        if(kem13 >= 1){
+            document.write("<br>Uang Rp.20000 sebanyak "+kem13+" lembar")
+        }
+        if(kem14 >= 1){
+            document.write("<br>Uang Rp.10000 sebanyak "+kem14+" lembar")
+        }
+        if(kem15 >= 1){
+            document.write("<br>Uang Rp.5000 sebanyak "+kem15+" lembar")
+        }
+        if(kem16 >= 1){
+            document.write("<br>Uang Rp.2000 sebanyak "+kem16+" lembar")
+        }
+        if(kem17 >= 1){
+            document.write("<br>Uang Rp.1000 sebanyak "+kem17+" lembar")
+        }
+        if(kem18 >= 1){
+            document.write("<br>Uang Rp.500 sebanyak "+kem18+" lembar")
+        }
+        if(kem > 0){
+            document.write("<br>Sisa kembalian Rp."+kem)
+        }
+    </script>
+</body>
+</html>
